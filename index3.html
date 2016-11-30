@@ -2,12 +2,17 @@
   <script src="http://fb.me/react-0.13.0.js"></script>
   <script src="http://fb.me/JSXTransformer-0.13.0.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
           <div class="container">
+              This is an empty Container Nav
           </div>
+          <div class= "mapas">
+              Maps
+        </div>
         </nav>
     </header>
 </body>
@@ -72,62 +77,52 @@
       header: 'Futvolley',
       description: 'Also known as futevolei, this rendition of beach volleyball played in and around Rio De Janeiro. You may use any part of your body other that your hands to volley the ball over the net ',
       imageUrl: 'http://m0.i.pbase.com/o6/11/141711/1/142465250.TcVJcXZ6.FutevoleiI_233931.jpg'
-  },
+     },
+     {
+        title: 'Show Locations',
+        number: 555,
+        header: 'Churrascaria',
+        description: 'This is the most excellent Brazilian dining experience for meat lovers. Servers come to your with unlimited cuts of barebequed meats.',
+        imageUrl: 'http://shepherdexpress.com/imgs/hed/art10330widea.jpg'
+    },
+      {
+        title: 'Show Locations',
+        number: 55,
+        header: 'Drink a Caipirinha',
+        description: 'This traditional Brazilain cocktail will quench your summer thirst. Made with a sugar cane brandy called Cachaca, lime, ice and cane sugar',
+        imageUrl: 'http://thebocaloca.com/wp-content/uploads/2015/02/caipirinha.jpg'
+    },
     {
-      title: 'Show Location',
-      number: 51,
-      header: 'Surfing',
-      description: 'The perimeter beaches of Rio offer exceptional surfing ',
-      imageUrl: 'http://blog.rioxtreme.com/wp-content/uploads/2013/02/462479_455525137841140_1555706027_o.jpg'
-  },
-  {
-    title: 'Show Locations',
-    number: 555,
-    header: 'Churrascaria',
-    description: 'This is the most excellent Brazilian dining experience for meat lovers. Servers come to your with unlimited cuts of barebequed meats.',
-    imageUrl: 'http://shepherdexpress.com/imgs/hed/art10330widea.jpg'
-},
-  {
-    title: 'Show Locations',
-    number: 55,
-    header: 'Drink a Caipirinha',
-    description: 'This traditional Brazilain cocktail will quench your summer thirst. Made with a sugar cane brandy called Cachaca, lime, ice and cane sugar',
-    imageUrl: 'http://thebocaloca.com/wp-content/uploads/2015/02/caipirinha.jpg'
-},
-{
-  title: 'Show Locations',
-  number: 5,
-  header: 'Climb Pao de Acucar ',
-  description: 'Home to some of the most scenic view of Rio. Sugarloaf Mountain has a gondola ride that takes you to the pinnacle ',
-  imageUrl: 'https://dinamicline.files.wordpress.com/2015/07/pao-de-azucar-8_blog.jpg?w=660'
-},
-{
-  title: 'Show Locations',
-  number: 5,
-  header: 'Visit the Cristo at Corcovado',
-  description: 'An iconic art deco statue of Christ the Redeemer located at the top of Corcovado mountain, overlooking the city of Rio',
-  imageUrl: 'http://melhorespontosturisticos.com.br/wp-content/uploads/2014/10/CRISTO-REDENTOR-Copia.jpg'
-},
-{
-  title: 'Show Locations',
-  number: 1,
-  header: 'Visit Maracana',
-  description: 'This legendary stadium is the location of many olympics events and hosted world cup games too. Capacity 200,000 had to be downsized. ',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/36/Maracan%C3%A3_Stadium_in_Rio_de_Janeiro.jpg'
-},
-{
-    title: 'Show Locations',
-    number: 1,
-    header: 'Live Music',
-    description: 'Enjoy an intimate performance of Bossa Nova or a sold out stadium rock concert',
-    imageUrl:'http://www.guitargirlmag.com/system/images/blog/56918_dsc_0129001_resized.jpg'
+      title: 'Show Locations',
+      number: 5,
+      header: 'Climb Pao de Acucar ',
+      description: 'Home to some of the most scenic view of Rio. Sugarloaf Mountain has a gondola ride that takes you to the pinnacle ',
+      imageUrl: 'https://dinamicline.files.wordpress.com/2015/07/pao-de-azucar-8_blog.jpg?w=660'
+    },
+    {
+      title: 'Show Locations',
+      number: 5,
+      header: 'Visit the Cristo at Corcovado',
+      description: 'An iconic art deco statue of Christ the Redeemer located at the top of Corcovado mountain, overlooking the city of Rio',
+      imageUrl: 'http://melhorespontosturisticos.com.br/wp-content/uploads/2014/10/CRISTO-REDENTOR-Copia.jpg'
+    },
+    {
+      title: 'Show Locations',
+      number: 1,
+      header: 'Visit Maracana',
+      description: 'This legendary stadium is the location of many olympics events and hosted world cup games too. Capacity 200,000 had to be downsized. ',
+      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/36/Maracan%C3%A3_Stadium_in_Rio_de_Janeiro.jpg'
+    },
+    {
+        title: 'Show Locations',
+        number: 1,
+        header: 'Live Music',
+        description: 'Enjoy an intimate performance of Bossa Nova or a sold out stadium rock concert',
+        imageUrl:'http://www.guitargirlmag.com/system/images/blog/56918_dsc_0129001_resized.jpg'
 
-},
-
-
-
-]
-    };
+    },
+ ]
+};
 
   var element = React.createElement(ThumbnailList, options);
   React.render(element, document.querySelector('.container'));
